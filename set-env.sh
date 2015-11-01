@@ -3,6 +3,11 @@
 # The directory where the script is
 export NN="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+cd $NN
+echo "At `pwd`"
+# ensure dependencies are downloaded
+git submodule update --init --recursive
+
 if [ \( "`which ipython`" != /pio/os/anaconda/bin/ipython \) -a \( -e /pio/os/anaconda/set-env.sh \) ]
 then
     echo "Adding Anaconda Python from /pio/os to your environment"
