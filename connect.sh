@@ -1,13 +1,14 @@
 #!/bin/bash
 PORT=31338
+USERNAME='i247926'
 SSH_FLAGS="-A -t -L $PORT:localhost:$PORT"
 
-HOPS="tryglaw.ii.uni.wroc.pl hera cymes"
+HOPS=""
 
-CMD=""
+CMD="ssh $SSH_FLAGS szewc@evolution.ii.uni.wroc.pl ssh $SSH_FLAGS -p 2222 $USERNAME@localhost "
 
 for hop in $HOPS; do
-  CMD="$CMD ssh $SSH_FLAGS i247926@$hop"
+  CMD="$CMD ssh $SSH_FLAGS $USERNAME@$hop"
 done
 
 CMD="$CMD $@"
