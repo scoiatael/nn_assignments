@@ -1,33 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>NeuralNetworks - CIFAR10 by scoiatael</title>
+    <meta name="description" content="NeuralNetworks - CIFAR10 : Code for Neural Networks 2015 class, w/ neural network for solving CIFAR10 project.">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>NeuralNetworks - CIFAR10</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>NeuralNetworks - CIFAR10</h1>
-        <p>Code for Neural Networks 2015 class, w/ neural network for solving CIFAR10 project.</p>
 
-        <p class="view"><a href="https://github.com/scoiatael/nn_assignments">View the Project on GitHub <small>scoiatael/nn_assignments</small></a></p>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/scoiatael/nn_assignments">View on GitHub</a>
 
+          <h1 id="project_title">NeuralNetworks - CIFAR10</h1>
+          <h2 id="project_tagline">Code for Neural Networks 2015 class, w/ neural network for solving CIFAR10 project.</h2>
 
-        <ul>
-          <li><a href="https://github.com/scoiatael/nn_assignments/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/scoiatael/nn_assignments/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/scoiatael/nn_assignments">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/scoiatael/nn_assignments/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/scoiatael/nn_assignments/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h2>
 <a id="cifar10-solution" class="anchor" href="#cifar10-solution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>CIFAR10 Solution</h2>
 
@@ -36,19 +39,20 @@
 <h3>
 <a id="architecture" class="anchor" href="#architecture" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Architecture</h3>
 
-<p>Architecture is based on, by many considered canonical, <a href="http://yann.lecun.com/exdb/lenet/">LeNet</a>. It consists of layers:</p>
+<p>Architecture is based on, by many considered canonical, <a href="http://yann.lecun.com/exdb/lenet/">LeNet</a>, with added nonlinear layers. It consists of following layer types:</p>
 
 <ul>
-<li>NL - linear + ReLU nonlinearity,</li>
-<li>C2 - 2d convolution,</li>
-<li>M2 - 2d max pooling,</li>
-<li>DB - dropout of 70%,</li>
-<li>DS - dropout of 30%,</li>
-<li>SM - softmax layer.
+<li>Nonlinear (big) - linear + ReLU nonlinearity with 800 units,</li>
+<li>Nonlinear (small) - linear + ReLU nonlinearity with 256 units,</li>
+<li>Convolution - 2d convolution with 32 filters and 5x5 filter size,</li>
+<li>Maxpool - 2d max pooling with 2x2 pool sizes,</li>
+<li>Drouput (big) - dropout of 50%,</li>
+<li>Droupout (small) - dropout of 20%,</li>
+<li>Softmax - softmax layer, casting to final 10 classes.
 They are structured in following way:</li>
 </ul>
 
-<p><img src="https://cloud.githubusercontent.com/assets/2892794/12592029/ee77ee94-c46a-11e5-9324-9b60988f9648.png" alt="C2 -&gt; M2 -&gt; C2 -&gt; M2 -&gt; C2 -&gt; DS -&gt; NL -&gt; DB -&gt; NL -&gt; SM."></p>
+<p><img src="https://cloud.githubusercontent.com/assets/2892794/12703521/14605fd2-c845-11e5-83ee-214e00fcee79.png" alt="C2 -&gt; M2 -&gt; C2 -&gt; M2 -&gt; C2 -&gt; DS -&gt; NL -&gt; DB -&gt; NL -&gt; SM."></p>
 
 <p>This way convolution layers should act as feature extractors, nonlinear layers should act as multilayer perceptron, and softmax layer should produce desired results. Dropout layers were added as a means of reducing chance of overfitting.</p>
 
@@ -57,13 +61,15 @@ They are structured in following way:</li>
 
 <p>Network was trained using Nesterov momentum (improved version of Stochastic Gradient Descent).</p>
 
-<p>Network was trained on examples from normal and inverted (features scaled by -1) train stream. Each training pass consisted of doing 5 full passes over inverted train set, then 10 over normal. Each full pass updated network.</p>
+<p>Network was trained on examples from normal and inverted (features scaled by -1) train stream. Each training pass consisted of doing 10 full passes over inverted train set, then 20 over normal. Each full pass updated network.</p>
 
-<p>Motivation of using inverted features was to force net to look at shape, not strictly colour of things. To make up for extra noise generated by these examples, they were assigned much lower learning rate (0.1 of the original) and had less passes.To fully assess that approach, more data should be tested and generalized, although here it showed some promise: net trained much faster and with better overall results in this manner. But this may be simply because those examples generated extra noise.</p>
+<p>Then there were 50 single passes over only normal train stream - they were meant to finalize network and allow it to converge to best result on normal data.</p>
+
+<p>Motivation for using inverted features was to force net to focus on shape, not colour of things. To make up for extra noise generated by these examples, they had less passes.To fully assess that approach, more data should be tested and results should be generalized. Here it showed some hope: net trained much faster and with better overall results in this manner. But this may be simply because those examples generated extra noise, which forced network out of local minima.</p>
 
 <p>Majority (4/5) of train examples were used for training, and rest for validation.</p>
 
-<p>Whole training took 25 training passes (which means that network was fed train set 500 times). With each train set pass taking between as few as 5 seconds (thanks to Theano CUDA/GPU support) up to 20 seconds, this was much shorter then expected time for CIFAR10 network.</p>
+<p>Whole training took 58 iterations. 10 of them consisted of mixed (20 + 10) passes over normal and inverted data, rest were just single passes over normal data. Tag means that network was fed variations of train set 350 times. With each train set pass taking between as few as 5 seconds (thanks to Theano CUDA/GPU support) up to 60 seconds (when GPU was used also by other students), this was much overall far shorter training time then expected for CIFAR10 solver.</p>
 
 <h3>
 <a id="tools" class="anchor" href="#tools" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tools</h3>
@@ -76,19 +82,24 @@ They are structured in following way:</li>
 <p>Hyper parameters were chosen by trial-and-error, with running multiple versions of network and choosing those that performed best. Initial values were taken from example networks for MNIST from lasagne repository.</p>
 
 <ul>
-<li><p><strong>Momentum</strong> equal to <code>0.2</code>. With initial value <code>0.9</code> network was initially learning very quickly, but also stopped learning pretty quickly. Decreasing momentum further slowed down initial progress, but increased overall accuracy.</p></li>
+<li><p><strong>Momentum</strong> equal to <code>0.9</code>. This allowed network to initial learn very quickly, but decreased overall accuracy. To counter this, learning rate decay was introduced.</p></li>
 <li><p><strong>Learning rate</strong> equal to <code>0.01*0.1**(iteration_numer/100.0)</code>. While constant learning rate is often suggested, here it was found that decreasing learning rate with time offered better results.</p></li>
 <li><p>Convolution layers used <code>32</code> <strong>learnable convolutional filters</strong> and <code>5x5</code> <strong>filter size</strong>. It was found that increasing filter size actually decreased network accuracy, while increasing filter size made no difference for final accuracy but increased learning time.</p></li>
 <li><p>Max pooling layers used <code>2x2</code> <strong>pool size</strong>. With 32x32 images, increasing that parameter was impossible.</p></li>
-<li><p>Dropout layers used <strong>dropout probability</strong> equal to <code>0.7</code> (for deeper layers) and <code>0.3</code> (for closer layers).</p></li>
+<li><p>Dropout layers used <strong>dropout probability</strong> equal to <code>0.5</code> (for deeper layers) and <code>0.2</code> (for closer layers).</p></li>
 </ul>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/scoiatael">scoiatael</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">NeuralNetworks - CIFAR10 maintained by <a href="https://github.com/scoiatael">scoiatael</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
+
   </body>
 </html>
