@@ -6,7 +6,7 @@ SSH_FLAGS="-A -t -L $PORT:localhost:$PORT"
 HOPS=(
 "$USERNAME@tryglaw.ii.uni.wroc.pl"
 "$USERNAME@hera"
-"$USERNAME@lab110-02"
+"$USERNAME@lab110-10"
 )
 
 CMD=""
