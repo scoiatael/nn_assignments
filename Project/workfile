@@ -1,0 +1,760 @@
+Iteration: 0, learning_rate 0.01
+  epoch 1 of 10 took 49.848s
+  validation accuracy:		13.99 %
+  epoch 2 of 10 took 50.749s
+  validation accuracy:		14.95 %
+  epoch 3 of 10 took 50.900s
+  validation accuracy:		17.29 %
+  epoch 4 of 10 took 48.883s
+  validation accuracy:		18.97 %
+  epoch 5 of 10 took 50.829s
+  validation accuracy:		21.00 %
+  epoch 6 of 10 took 32.857s
+  validation accuracy:		22.15 %
+  epoch 7 of 10 took 25.408s
+  validation accuracy:		24.10 %
+  epoch 8 of 10 took 51.466s
+  validation accuracy:		23.91 %
+  epoch 9 of 10 took 49.143s
+  validation accuracy:		24.34 %
+  epoch 10 of 10 took 51.104s
+  validation accuracy:		25.53 %
+  epoch 1 of 20 took 51.178s
+  validation accuracy:		67.59 %
+  epoch 2 of 20 took 20.481s
+  validation accuracy:		68.83 %
+  epoch 3 of 20 took 36.876s
+  validation accuracy:		69.82 %
+  epoch 4 of 20 took 50.162s
+  validation accuracy:		71.65 %
+  epoch 5 of 20 took 51.547s
+  validation accuracy:		71.86 %
+  epoch 6 of 20 took 51.293s
+  validation accuracy:		72.72 %
+  epoch 7 of 20 took 48.319s
+  validation accuracy:		72.84 %
+  epoch 8 of 20 took 11.203s
+  validation accuracy:		73.43 %
+  epoch 9 of 20 took 47.000s
+  validation accuracy:		73.79 %
+  epoch 10 of 20 took 50.842s
+  validation accuracy:		73.75 %
+  epoch 11 of 20 took 50.297s
+  validation accuracy:		74.16 %
+  epoch 12 of 20 took 48.800s
+  validation accuracy:		74.61 %
+  epoch 13 of 20 took 51.426s
+  validation accuracy:		74.87 %
+  epoch 14 of 20 took 51.210s
+  validation accuracy:		75.25 %
+  epoch 15 of 20 took 49.836s
+  validation accuracy:		75.32 %
+  epoch 16 of 20 took 50.548s
+  validation accuracy:		75.59 %
+  epoch 17 of 20 took 51.091s
+  validation accuracy:		75.53 %
+  epoch 18 of 20 took 50.458s
+  validation accuracy:		76.15 %
+  epoch 19 of 20 took 15.920s
+  validation accuracy:		76.58 %
+  epoch 20 of 20 took 26.759s
+  validation accuracy:		75.88 %
+Iteration: 1, learning_rate 0.00977237220956
+  epoch 1 of 10 took 9.161s
+  validation accuracy:		44.88 %
+  epoch 2 of 10 took 9.120s
+  validation accuracy:		38.26 %
+  epoch 3 of 10 took 9.113s
+  validation accuracy:		36.15 %
+  epoch 4 of 10 took 9.169s
+  validation accuracy:		33.87 %
+  epoch 5 of 10 took 9.546s
+  validation accuracy:		36.27 %
+  epoch 6 of 10 took 9.162s
+  validation accuracy:		35.40 %
+  epoch 7 of 10 took 9.133s
+  validation accuracy:		34.52 %
+  epoch 8 of 10 took 9.163s
+  validation accuracy:		32.42 %
+  epoch 9 of 10 took 9.123s
+  validation accuracy:		33.35 %
+  epoch 10 of 10 took 9.133s
+  validation accuracy:		33.64 %
+  epoch 1 of 20 took 9.071s
+  validation accuracy:		76.22 %
+  epoch 2 of 20 took 9.063s
+  validation accuracy:		76.09 %
+  epoch 3 of 20 took 9.061s
+  validation accuracy:		76.85 %
+  epoch 4 of 20 took 9.353s
+  validation accuracy:		77.02 %
+  epoch 5 of 20 took 38.227s
+  validation accuracy:		77.18 %
+  epoch 6 of 20 took 46.278s
+  validation accuracy:		77.43 %
+  epoch 7 of 20 took 44.556s
+  validation accuracy:		76.63 %
+  epoch 8 of 20 took 46.236s
+  validation accuracy:		76.82 %
+  epoch 9 of 20 took 44.322s
+  validation accuracy:		77.71 %
+  epoch 10 of 20 took 47.476s
+  validation accuracy:		77.04 %
+  epoch 11 of 20 took 44.472s
+  validation accuracy:		77.73 %
+  epoch 12 of 20 took 46.462s
+  validation accuracy:		77.67 %
+  epoch 13 of 20 took 44.577s
+  validation accuracy:		77.09 %
+  epoch 14 of 20 took 46.960s
+  validation accuracy:		77.91 %
+  epoch 15 of 20 took 45.637s
+  validation accuracy:		77.49 %
+  epoch 16 of 20 took 45.048s
+  validation accuracy:		78.13 %
+  epoch 17 of 20 took 45.977s
+  validation accuracy:		77.82 %
+  epoch 18 of 20 took 22.127s
+  validation accuracy:		76.61 %
+  epoch 19 of 20 took 28.994s
+  validation accuracy:		77.88 %
+  epoch 20 of 20 took 44.282s
+  validation accuracy:		78.26 %
+Iteration: 2, learning_rate 0.00954992586021
+  epoch 1 of 10 took 47.035s
+  validation accuracy:		42.84 %
+  epoch 2 of 10 took 44.599s
+  validation accuracy:		43.11 %
+  epoch 3 of 10 took 46.968s
+  validation accuracy:		36.15 %
+  epoch 4 of 10 took 46.104s
+  validation accuracy:		36.90 %
+  epoch 5 of 10 took 45.371s
+  validation accuracy:		37.96 %
+  epoch 6 of 10 took 46.595s
+  validation accuracy:		35.51 %
+  epoch 7 of 10 took 44.710s
+  validation accuracy:		34.97 %
+  epoch 8 of 10 took 47.136s
+  validation accuracy:		35.24 %
+  epoch 9 of 10 took 44.758s
+  validation accuracy:		36.55 %
+  epoch 10 of 10 took 46.965s
+  validation accuracy:		35.36 %
+  epoch 1 of 20 took 44.445s
+  validation accuracy:		77.04 %
+  epoch 2 of 20 took 31.685s
+  validation accuracy:		77.54 %
+  epoch 3 of 20 took 21.959s
+  validation accuracy:		77.91 %
+  epoch 4 of 20 took 44.491s
+  validation accuracy:		78.00 %
+  epoch 5 of 20 took 46.791s
+  validation accuracy:		78.07 %
+  epoch 6 of 20 took 44.455s
+  validation accuracy:		77.87 %
+  epoch 7 of 20 took 46.844s
+  validation accuracy:		77.92 %
+  epoch 8 of 20 took 44.673s
+  validation accuracy:		77.84 %
+  epoch 9 of 20 took 46.772s
+  validation accuracy:		78.30 %
+  epoch 10 of 20 took 45.003s
+  validation accuracy:		77.21 %
+  epoch 11 of 20 took 46.371s
+  validation accuracy:		78.30 %
+  epoch 12 of 20 took 44.532s
+  validation accuracy:		78.50 %
+  epoch 13 of 20 took 46.877s
+  validation accuracy:		77.98 %
+  epoch 14 of 20 took 44.350s
+  validation accuracy:		78.06 %
+  epoch 15 of 20 took 46.315s
+  validation accuracy:		78.05 %
+  epoch 16 of 20 took 40.354s
+  validation accuracy:		78.15 %
+  epoch 17 of 20 took 10.056s
+  validation accuracy:		77.92 %
+  epoch 18 of 20 took 47.327s
+  validation accuracy:		78.17 %
+  epoch 19 of 20 took 45.051s
+  validation accuracy:		78.51 %
+  epoch 20 of 20 took 46.366s
+  validation accuracy:		78.13 %
+Iteration: 3, learning_rate 0.00933254300797
+  epoch 1 of 10 took 44.848s
+  validation accuracy:		44.40 %
+  epoch 2 of 10 took 47.227s
+  validation accuracy:		40.07 %
+  epoch 3 of 10 took 44.713s
+  validation accuracy:		40.65 %
+  epoch 4 of 10 took 47.071s
+  validation accuracy:		37.94 %
+  epoch 5 of 10 took 44.867s
+  validation accuracy:		37.29 %
+  epoch 6 of 10 took 47.090s
+  validation accuracy:		37.83 %
+  epoch 7 of 10 took 44.735s
+  validation accuracy:		37.63 %
+  epoch 8 of 10 took 47.336s
+  validation accuracy:		37.86 %
+  epoch 9 of 10 took 44.805s
+  validation accuracy:		34.62 %
+  epoch 10 of 10 took 46.432s
+  validation accuracy:		36.24 %
+  epoch 1 of 20 took 11.820s
+  validation accuracy:		77.42 %
+  epoch 2 of 20 took 38.669s
+  validation accuracy:		77.94 %
+  epoch 3 of 20 took 46.474s
+  validation accuracy:		77.95 %
+  epoch 4 of 20 took 44.389s
+  validation accuracy:		78.27 %
+  epoch 5 of 20 took 46.145s
+  validation accuracy:		78.03 %
+  epoch 6 of 20 took 44.419s
+  validation accuracy:		78.00 %
+  epoch 7 of 20 took 46.296s
+  validation accuracy:		78.18 %
+  epoch 8 of 20 took 44.777s
+  validation accuracy:		77.86 %
+  epoch 9 of 20 took 46.424s
+  validation accuracy:		78.14 %
+  epoch 10 of 20 took 44.241s
+  validation accuracy:		78.09 %
+  epoch 11 of 20 took 46.132s
+  validation accuracy:		77.73 %
+  epoch 12 of 20 took 39.054s
+  validation accuracy:		78.03 %
+  epoch 13 of 20 took 10.935s
+  validation accuracy:		78.03 %
+  epoch 14 of 20 took 46.671s
+  validation accuracy:		77.88 %
+  epoch 15 of 20 took 44.432s
+  validation accuracy:		78.32 %
+  epoch 16 of 20 took 47.049s
+  validation accuracy:		78.09 %
+  epoch 17 of 20 took 44.488s
+  validation accuracy:		78.28 %
+  epoch 18 of 20 took 46.705s
+  validation accuracy:		78.45 %
+  epoch 19 of 20 took 17.872s
+  validation accuracy:		78.02 %
+  epoch 20 of 20 took 32.173s
+  validation accuracy:		77.86 %
+Iteration: 4, learning_rate 0.00912010839356
+  epoch 1 of 10 took 45.079s
+  validation accuracy:		41.83 %
+  epoch 2 of 10 took 45.994s
+  validation accuracy:		42.55 %
+  epoch 3 of 10 took 46.383s
+  validation accuracy:		40.98 %
+  epoch 4 of 10 took 44.887s
+  validation accuracy:		39.07 %
+  epoch 5 of 10 took 10.384s
+  validation accuracy:		40.75 %
+  epoch 6 of 10 took 42.470s
+  validation accuracy:		38.69 %
+  epoch 7 of 10 took 46.417s
+  validation accuracy:		38.16 %
+  epoch 8 of 10 took 45.507s
+  validation accuracy:		39.68 %
+  epoch 9 of 10 took 45.963s
+  validation accuracy:		37.60 %
+  epoch 10 of 10 took 45.567s
+  validation accuracy:		39.93 %
+  epoch 1 of 20 took 45.028s
+  validation accuracy:		77.77 %
+  epoch 2 of 20 took 45.415s
+  validation accuracy:		78.02 %
+  epoch 3 of 20 took 45.205s
+  validation accuracy:		78.42 %
+  epoch 4 of 20 took 45.264s
+  validation accuracy:		78.60 %
+  epoch 5 of 20 took 45.223s
+  validation accuracy:		78.39 %
+  epoch 6 of 20 took 45.492s
+  validation accuracy:		78.34 %
+  epoch 7 of 20 took 45.217s
+  validation accuracy:		78.39 %
+  epoch 8 of 20 took 11.116s
+  validation accuracy:		78.68 %
+  epoch 9 of 20 took 40.037s
+  validation accuracy:		78.29 %
+  epoch 10 of 20 took 46.162s
+  validation accuracy:		78.28 %
+  epoch 11 of 20 took 44.332s
+  validation accuracy:		78.26 %
+  epoch 12 of 20 took 46.463s
+  validation accuracy:		78.42 %
+  epoch 13 of 20 took 44.595s
+  validation accuracy:		78.33 %
+  epoch 14 of 20 took 46.135s
+  validation accuracy:		77.92 %
+  epoch 15 of 20 took 45.365s
+  validation accuracy:		78.04 %
+  epoch 16 of 20 took 46.359s
+  validation accuracy:		78.71 %
+  epoch 17 of 20 took 44.562s
+  validation accuracy:		78.26 %
+  epoch 18 of 20 took 46.746s
+  validation accuracy:		78.22 %
+  epoch 19 of 20 took 44.765s
+  validation accuracy:		78.06 %
+  epoch 20 of 20 took 46.100s
+  validation accuracy:		78.10 %
+Iteration: 5, learning_rate 0.00891250938134
+  epoch 1 of 10 took 44.872s
+  validation accuracy:		44.44 %
+  epoch 2 of 10 took 25.178s
+  validation accuracy:		40.38 %
+  epoch 3 of 10 took 26.989s
+  validation accuracy:		41.07 %
+  epoch 4 of 10 took 44.612s
+  validation accuracy:		39.45 %
+  epoch 5 of 10 took 46.747s
+  validation accuracy:		41.17 %
+  epoch 6 of 10 took 45.411s
+  validation accuracy:		39.89 %
+  epoch 7 of 10 took 46.606s
+  validation accuracy:		41.46 %
+  epoch 8 of 10 took 44.805s
+  validation accuracy:		38.38 %
+  epoch 9 of 10 took 47.069s
+  validation accuracy:		39.03 %
+  epoch 10 of 10 took 44.950s
+  validation accuracy:		38.60 %
+  epoch 1 of 20 took 46.339s
+  validation accuracy:		77.40 %
+  epoch 2 of 20 took 44.398s
+  validation accuracy:		78.22 %
+  epoch 3 of 20 took 46.423s
+  validation accuracy:		78.07 %
+  epoch 4 of 20 took 44.406s
+  validation accuracy:		78.16 %
+  epoch 5 of 20 took 46.565s
+  validation accuracy:		78.46 %
+  epoch 6 of 20 took 36.955s
+  validation accuracy:		78.70 %
+  epoch 7 of 20 took 13.394s
+  validation accuracy:		78.47 %
+  epoch 8 of 20 took 46.346s
+  validation accuracy:		78.58 %
+  epoch 9 of 20 took 44.458s
+  validation accuracy:		78.19 %
+  epoch 10 of 20 took 46.632s
+  validation accuracy:		78.42 %
+  epoch 11 of 20 took 44.790s
+  validation accuracy:		78.67 %
+  epoch 12 of 20 took 46.517s
+  validation accuracy:		78.36 %
+  epoch 13 of 20 took 44.682s
+  validation accuracy:		78.20 %
+  epoch 14 of 20 took 46.878s
+  validation accuracy:		77.90 %
+  epoch 15 of 20 took 39.399s
+  validation accuracy:		77.88 %
+  epoch 16 of 20 took 10.950s
+  validation accuracy:		78.41 %
+  epoch 17 of 20 took 46.508s
+  validation accuracy:		78.27 %
+  epoch 18 of 20 took 44.673s
+  validation accuracy:		77.96 %
+  epoch 19 of 20 took 46.711s
+  validation accuracy:		78.54 %
+  epoch 20 of 20 took 42.875s
+  validation accuracy:		78.19 %
+Iteration: 6, learning_rate 0.00870963589956
+  epoch 1 of 10 took 9.490s
+  validation accuracy:		42.59 %
+  epoch 2 of 10 took 44.340s
+  validation accuracy:		42.16 %
+  epoch 3 of 10 took 45.659s
+  validation accuracy:		42.89 %
+  epoch 4 of 10 took 46.060s
+  validation accuracy:		40.85 %
+  epoch 5 of 10 took 45.158s
+  validation accuracy:		40.86 %
+  epoch 6 of 10 took 46.761s
+  validation accuracy:		40.18 %
+  epoch 7 of 10 took 45.019s
+  validation accuracy:		40.22 %
+  epoch 8 of 10 took 46.855s
+  validation accuracy:		37.29 %
+  epoch 9 of 10 took 44.764s
+  validation accuracy:		38.43 %
+  epoch 10 of 10 took 33.000s
+  validation accuracy:		39.48 %
+  epoch 1 of 20 took 18.591s
+  validation accuracy:		77.72 %
+  epoch 2 of 20 took 46.556s
+  validation accuracy:		78.07 %
+  epoch 3 of 20 took 44.975s
+  validation accuracy:		78.43 %
+  epoch 4 of 20 took 46.143s
+  validation accuracy:		78.35 %
+  epoch 5 of 20 took 45.212s
+  validation accuracy:		77.68 %
+  epoch 6 of 20 took 45.712s
+  validation accuracy:		78.70 %
+  epoch 7 of 20 took 11.347s
+  validation accuracy:		78.22 %
+  epoch 8 of 20 took 39.672s
+  validation accuracy:		78.55 %
+  epoch 9 of 20 took 46.929s
+  validation accuracy:		78.12 %
+  epoch 10 of 20 took 44.340s
+  validation accuracy:		78.30 %
+  epoch 11 of 20 took 46.113s
+  validation accuracy:		78.12 %
+  epoch 12 of 20 took 14.707s
+  validation accuracy:		78.35 %
+  epoch 13 of 20 took 36.035s
+  validation accuracy:		78.20 %
+  epoch 14 of 20 took 46.487s
+  validation accuracy:		78.49 %
+  epoch 15 of 20 took 44.581s
+  validation accuracy:		78.32 %
+  epoch 16 of 20 took 46.428s
+  validation accuracy:		78.57 %
+  epoch 17 of 20 took 44.494s
+  validation accuracy:		78.08 %
+  epoch 18 of 20 took 45.998s
+  validation accuracy:		78.10 %
+  epoch 19 of 20 took 44.511s
+  validation accuracy:		78.04 %
+  epoch 20 of 20 took 46.432s
+  validation accuracy:		78.38 %
+Iteration: 7, learning_rate 0.00851138038202
+  epoch 1 of 10 took 44.951s
+  validation accuracy:		42.93 %
+  epoch 2 of 10 took 46.758s
+  validation accuracy:		41.58 %
+  epoch 3 of 10 took 44.962s
+  validation accuracy:		40.99 %
+  epoch 4 of 10 took 46.878s
+  validation accuracy:		39.97 %
+  epoch 5 of 10 took 44.919s
+  validation accuracy:		40.74 %
+  epoch 6 of 10 took 28.563s
+  validation accuracy:		39.66 %
+  epoch 7 of 10 took 23.921s
+  validation accuracy:		39.48 %
+  epoch 8 of 10 took 44.434s
+  validation accuracy:		38.27 %
+  epoch 9 of 10 took 46.582s
+  validation accuracy:		38.05 %
+  epoch 10 of 10 took 44.584s
+  validation accuracy:		37.77 %
+  epoch 1 of 20 took 46.826s
+  validation accuracy:		77.84 %
+  epoch 2 of 20 took 44.335s
+  validation accuracy:		77.85 %
+  epoch 3 of 20 took 46.657s
+  validation accuracy:		78.22 %
+  epoch 4 of 20 took 18.430s
+  validation accuracy:		78.19 %
+  epoch 5 of 20 took 32.570s
+  validation accuracy:		78.35 %
+  epoch 6 of 20 took 45.226s
+  validation accuracy:		78.30 %
+  epoch 7 of 20 took 45.269s
+  validation accuracy:		78.61 %
+  epoch 8 of 20 took 45.456s
+  validation accuracy:		78.31 %
+  epoch 9 of 20 took 45.295s
+  validation accuracy:		78.05 %
+  epoch 10 of 20 took 35.291s
+  validation accuracy:		78.20 %
+  epoch 11 of 20 took 15.470s
+  validation accuracy:		78.19 %
+  epoch 12 of 20 took 46.061s
+  validation accuracy:		78.34 %
+  epoch 13 of 20 took 44.422s
+  validation accuracy:		77.88 %
+  epoch 14 of 20 took 46.302s
+  validation accuracy:		78.33 %
+  epoch 15 of 20 took 44.498s
+  validation accuracy:		78.32 %
+  epoch 16 of 20 took 28.373s
+  validation accuracy:		78.61 %
+  epoch 17 of 20 took 23.103s
+  validation accuracy:		78.48 %
+  epoch 18 of 20 took 44.546s
+  validation accuracy:		78.47 %
+  epoch 19 of 20 took 46.292s
+  validation accuracy:		78.33 %
+  epoch 20 of 20 took 44.624s
+  validation accuracy:		78.34 %
+Iteration: 8, learning_rate 0.00831763771103
+  epoch 1 of 10 took 33.310s
+  validation accuracy:		45.25 %
+  epoch 2 of 10 took 18.492s
+  validation accuracy:		40.96 %
+  epoch 3 of 10 took 46.639s
+  validation accuracy:		41.43 %
+  epoch 4 of 10 took 44.918s
+  validation accuracy:		40.85 %
+  epoch 5 of 10 took 46.359s
+  validation accuracy:		41.15 %
+  epoch 6 of 10 took 35.759s
+  validation accuracy:		41.69 %
+  epoch 7 of 10 took 9.360s
+  validation accuracy:		41.57 %
+  epoch 8 of 10 took 9.273s
+  validation accuracy:		38.37 %
+  epoch 9 of 10 took 9.131s
+  validation accuracy:		39.25 %
+  epoch 10 of 10 took 9.109s
+  validation accuracy:		40.44 %
+  epoch 1 of 20 took 9.047s
+  validation accuracy:		77.48 %
+  epoch 2 of 20 took 9.039s
+  validation accuracy:		77.89 %
+  epoch 3 of 20 took 9.037s
+  validation accuracy:		78.15 %
+  epoch 4 of 20 took 9.034s
+  validation accuracy:		78.17 %
+  epoch 5 of 20 took 9.039s
+  validation accuracy:		77.93 %
+  epoch 6 of 20 took 9.095s
+  validation accuracy:		78.01 %
+  epoch 7 of 20 took 9.110s
+  validation accuracy:		78.14 %
+  epoch 8 of 20 took 9.117s
+  validation accuracy:		78.15 %
+  epoch 9 of 20 took 9.090s
+  validation accuracy:		78.15 %
+  epoch 10 of 20 took 9.045s
+  validation accuracy:		77.92 %
+  epoch 11 of 20 took 9.035s
+  validation accuracy:		78.52 %
+  epoch 12 of 20 took 9.036s
+  validation accuracy:		78.58 %
+  epoch 13 of 20 took 9.036s
+  validation accuracy:		78.13 %
+  epoch 14 of 20 took 9.034s
+  validation accuracy:		78.37 %
+  epoch 15 of 20 took 9.036s
+  validation accuracy:		78.10 %
+  epoch 16 of 20 took 9.046s
+  validation accuracy:		78.46 %
+  epoch 17 of 20 took 9.036s
+  validation accuracy:		78.23 %
+  epoch 18 of 20 took 9.035s
+  validation accuracy:		78.57 %
+  epoch 19 of 20 took 9.038s
+  validation accuracy:		77.76 %
+  epoch 20 of 20 took 9.036s
+  validation accuracy:		77.97 %
+Iteration: 9, learning_rate 0.00812830516164
+  epoch 1 of 10 took 9.117s
+  validation accuracy:		42.81 %
+  epoch 2 of 10 took 9.110s
+  validation accuracy:		42.38 %
+  epoch 3 of 10 took 9.110s
+  validation accuracy:		41.07 %
+  epoch 4 of 10 took 9.103s
+  validation accuracy:		39.76 %
+  epoch 5 of 10 took 9.116s
+  validation accuracy:		38.31 %
+  epoch 6 of 10 took 9.099s
+  validation accuracy:		39.44 %
+  epoch 7 of 10 took 9.105s
+  validation accuracy:		38.29 %
+  epoch 8 of 10 took 9.099s
+  validation accuracy:		39.58 %
+  epoch 9 of 10 took 9.101s
+  validation accuracy:		42.33 %
+  epoch 10 of 10 took 9.102s
+  validation accuracy:		38.26 %
+  epoch 1 of 20 took 9.044s
+  validation accuracy:		77.56 %
+  epoch 2 of 20 took 9.038s
+  validation accuracy:		78.06 %
+  epoch 3 of 20 took 9.050s
+  validation accuracy:		78.56 %
+  epoch 4 of 20 took 9.037s
+  validation accuracy:		77.89 %
+  epoch 5 of 20 took 9.052s
+  validation accuracy:		78.05 %
+  epoch 6 of 20 took 9.074s
+  validation accuracy:		78.07 %
+  epoch 7 of 20 took 9.064s
+  validation accuracy:		78.16 %
+  epoch 8 of 20 took 9.041s
+  validation accuracy:		78.70 %
+  epoch 9 of 20 took 9.040s
+  validation accuracy:		78.48 %
+  epoch 10 of 20 took 9.036s
+  validation accuracy:		78.27 %
+  epoch 11 of 20 took 9.035s
+  validation accuracy:		77.99 %
+  epoch 12 of 20 took 9.035s
+  validation accuracy:		78.23 %
+  epoch 13 of 20 took 9.036s
+  validation accuracy:		78.04 %
+  epoch 14 of 20 took 9.036s
+  validation accuracy:		77.97 %
+  epoch 15 of 20 took 9.036s
+  validation accuracy:		78.21 %
+  epoch 16 of 20 took 9.036s
+  validation accuracy:		77.94 %
+  epoch 17 of 20 took 9.035s
+  validation accuracy:		77.97 %
+  epoch 18 of 20 took 9.045s
+  validation accuracy:		78.11 %
+  epoch 19 of 20 took 9.036s
+  validation accuracy:		78.27 %
+  epoch 20 of 20 took 9.037s
+  validation accuracy:		78.64 %
+Iteration: 9, learning_rate 0.00812830516164
+  epoch 1 of 1 took 9.042s
+  validation accuracy:		78.31 %
+Iteration: 10, learning_rate 0.00794328234724
+  epoch 1 of 1 took 9.047s
+  validation accuracy:		78.31 %
+Iteration: 11, learning_rate 0.00776247116629
+  epoch 1 of 1 took 9.051s
+  validation accuracy:		78.46 %
+Iteration: 12, learning_rate 0.00758577575029
+  epoch 1 of 1 took 9.046s
+  validation accuracy:		78.29 %
+Iteration: 13, learning_rate 0.00741310241301
+  epoch 1 of 1 took 9.043s
+  validation accuracy:		78.51 %
+Iteration: 14, learning_rate 0.00724435960075
+  epoch 1 of 1 took 9.077s
+  validation accuracy:		78.14 %
+Iteration: 15, learning_rate 0.00707945784384
+  epoch 1 of 1 took 9.110s
+  validation accuracy:		78.36 %
+Iteration: 16, learning_rate 0.00691830970919
+  epoch 1 of 1 took 9.121s
+  validation accuracy:		78.13 %
+Iteration: 17, learning_rate 0.00676082975392
+  epoch 1 of 1 took 9.107s
+  validation accuracy:		78.58 %
+Iteration: 18, learning_rate 0.00660693448008
+  epoch 1 of 1 took 9.147s
+  validation accuracy:		78.55 %
+Iteration: 19, learning_rate 0.00645654229035
+  epoch 1 of 1 took 9.051s
+  validation accuracy:		78.43 %
+Iteration: 20, learning_rate 0.0063095734448
+  epoch 1 of 1 took 9.058s
+  validation accuracy:		78.43 %
+Iteration: 21, learning_rate 0.00616595001861
+  epoch 1 of 1 took 9.078s
+  validation accuracy:		78.37 %
+Iteration: 22, learning_rate 0.00602559586074
+  epoch 1 of 1 took 9.088s
+  validation accuracy:		78.49 %
+Iteration: 23, learning_rate 0.00588843655356
+  epoch 1 of 1 took 9.080s
+  validation accuracy:		78.73 %
+Iteration: 24, learning_rate 0.00575439937337
+  epoch 1 of 1 took 9.478s
+  validation accuracy:		78.52 %
+Iteration: 25, learning_rate 0.0056234132519
+  epoch 1 of 1 took 9.065s
+  validation accuracy:		78.69 %
+Iteration: 26, learning_rate 0.00549540873858
+  epoch 1 of 1 took 9.046s
+  validation accuracy:		78.49 %
+Iteration: 27, learning_rate 0.0053703179637
+  epoch 1 of 1 took 9.050s
+  validation accuracy:		78.75 %
+Iteration: 28, learning_rate 0.0052480746025
+  epoch 1 of 1 took 9.049s
+  validation accuracy:		78.49 %
+Iteration: 29, learning_rate 0.00512861383991
+  epoch 1 of 1 took 9.094s
+  validation accuracy:		78.61 %
+Iteration: 30, learning_rate 0.00501187233627
+  epoch 1 of 1 took 9.045s
+  validation accuracy:		77.90 %
+Iteration: 31, learning_rate 0.00489778819368
+  epoch 1 of 1 took 9.054s
+  validation accuracy:		78.27 %
+Iteration: 32, learning_rate 0.00478630092323
+  epoch 1 of 1 took 9.053s
+  validation accuracy:		78.39 %
+Iteration: 33, learning_rate 0.00467735141287
+  epoch 1 of 1 took 9.112s
+  validation accuracy:		78.79 %
+Iteration: 34, learning_rate 0.00457088189615
+  epoch 1 of 1 took 9.092s
+  validation accuracy:		78.58 %
+Iteration: 35, learning_rate 0.00446683592151
+  epoch 1 of 1 took 9.078s
+  validation accuracy:		78.96 %
+Iteration: 36, learning_rate 0.0043651583224
+  epoch 1 of 1 took 9.109s
+  validation accuracy:		78.65 %
+Iteration: 37, learning_rate 0.00426579518802
+  epoch 1 of 1 took 9.060s
+  validation accuracy:		78.48 %
+Iteration: 38, learning_rate 0.0041686938347
+  epoch 1 of 1 took 9.065s
+  validation accuracy:		78.72 %
+Iteration: 39, learning_rate 0.00407380277804
+  epoch 1 of 1 took 9.059s
+  validation accuracy:		78.59 %
+Iteration: 40, learning_rate 0.00398107170553
+  epoch 1 of 1 took 9.120s
+  validation accuracy:		78.61 %
+Iteration: 41, learning_rate 0.00389045144994
+  epoch 1 of 1 took 9.141s
+  validation accuracy:		78.97 %
+Iteration: 42, learning_rate 0.00380189396321
+  epoch 1 of 1 took 9.049s
+  validation accuracy:		78.76 %
+Iteration: 43, learning_rate 0.00371535229097
+  epoch 1 of 1 took 9.060s
+  validation accuracy:		78.90 %
+Iteration: 44, learning_rate 0.0036307805477
+  epoch 1 of 1 took 9.065s
+  validation accuracy:		78.71 %
+Iteration: 45, learning_rate 0.00354813389234
+  epoch 1 of 1 took 9.062s
+  validation accuracy:		78.87 %
+Iteration: 46, learning_rate 0.00346736850453
+  epoch 1 of 1 took 9.063s
+  validation accuracy:		78.86 %
+Iteration: 47, learning_rate 0.00338844156139
+  epoch 1 of 1 took 9.071s
+  validation accuracy:		78.65 %
+Iteration: 48, learning_rate 0.00331131121483
+  epoch 1 of 1 took 9.126s
+  validation accuracy:		78.70 %
+Iteration: 49, learning_rate 0.0032359365693
+  epoch 1 of 1 took 9.099s
+  validation accuracy:		78.69 %
+Iteration: 50, learning_rate 0.00316227766017
+  epoch 1 of 1 took 9.182s
+  validation accuracy:		78.96 %
+Iteration: 51, learning_rate 0.00309029543251
+  epoch 1 of 1 took 9.208s
+  validation accuracy:		78.71 %
+Iteration: 52, learning_rate 0.0030199517204
+  epoch 1 of 1 took 9.229s
+  validation accuracy:		78.97 %
+Iteration: 53, learning_rate 0.00295120922667
+  epoch 1 of 1 took 9.225s
+  validation accuracy:		78.95 %
+Iteration: 54, learning_rate 0.00288403150313
+  epoch 1 of 1 took 9.178s
+  validation accuracy:		78.80 %
+Iteration: 55, learning_rate 0.00281838293126
+  epoch 1 of 1 took 9.413s
+  validation accuracy:		78.78 %
+Iteration: 56, learning_rate 0.00275422870334
+  epoch 1 of 1 took 9.569s
+  validation accuracy:		79.13 %
+Iteration: 57, learning_rate 0.00269153480393
+  epoch 1 of 1 took 9.574s
+  validation accuracy:		78.86 %
+Iteration: 58, learning_rate 0.0026302679919
+  epoch 1 of 1 took 9.553s
+  validation accuracy:		79.00 %
