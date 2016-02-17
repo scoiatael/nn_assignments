@@ -2051,3 +2051,12 @@ Iteration: 33, learning_rate 0.00467735141287
   epoch 3 of 10 took 37.852s
   train accuracy:		98.95 %
   validation accuracy:		80.26 %
+  epoch 4 of 10 took 38.097s
+  train accuracy:		98.99 %
+  validation accuracy:		79.98 %
+  epoch 5 of 10 took 38.085s
+  train accuracy:		99.04 %
+  validation accuracy:		80.26 %
+  epoch 6 of 10 took 38.008s
+  train accuracy:		98.96 %
+  validation accuracy:		80.10 %
